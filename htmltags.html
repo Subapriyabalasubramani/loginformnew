@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment</title>
+        <style>
+          body{
+              text-align: center;
+              font-size: 150%;
+            background-color: aliceblue;
+          }
+          form{
+            background-image: linear-gradient(to bottom right,pink ,rgb(213, 193, 213),rgb(224, 224, 141));
+            padding: 120px 15px;
+            font-size: 40px;
+          }
+         label{
+              text-align: center;
+          }
+          p{
+           font-size: 10px;
+          }
+          a{
+            font-size: 10px;
+          }
+          .button{
+            background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+          }
+        </style>
+    </head>
+    <body>
+       <form>
+        <fieldset>
+          <legend>PersonalDetails</legend>
+            <img src="icon.jpg" alt="icon" height="140px" width="150px"><br><br>
+              <label for="name">Name:</label>
+              <input type="text" placeholder="Enter your name" required ><br><br>
+              <label for="age">Age:</label>
+              <input type="number"placeholder="Enter your age" required><br><br>
+              <label for="gender">Gender:</label>
+              <input type="radio" name="gender">Male
+              <input type="radio" name="gender">Female<br><br>
+              <label for="email">Mailid:</label>
+              <input type="email" placeholder="Enter your mailid" required><br><br>
+              <label for="phone">Phonenumber:</label>
+              <input type="tel" maxlength="10" placeholder="Enter your phonenumber"  required><br><br>
+              <label for="password">Password:</label>
+              <input type="password"placeholder="Enter your password" required><br>
+              <a href="pw.html">forget password</a><br><br>
+              <button class="button">
+                <a href="https://karmadevelopers.me/" target="_blank">SIGN-IN</a>
+              </button>
+              <button class="button">
+                <a href="index.html">CANCEL</a>
+               </button>
+        </fieldset>
+      </form>
+    </body>
+</html>
